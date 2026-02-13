@@ -2,7 +2,7 @@
 
 
 ## Project Overview
-This project analyzes the evolution of athletic performance in the Men's Long Jump, focusing specifically on how age impacts performance. By processing over 200,000 records from World Athletics, the analysis identifies the "peak performance window" for elite athletes and contrasts their development trajectory against the general athletic population.
+This study analyzes the evolution of athletic performance in the Men's Long Jump, focusing specifically on how age impacts performance. By processing over 200,000 records from World Athletics, the analysis identifies the "peak performance window" for elite athletes and contrasts their development trajectory against the general athletic population.
 
 The goal is to provide data-driven insights into:
 
