@@ -42,7 +42,7 @@ pip install pandas numpy matplotlib seaborn
 `cleaning.ipynb`
 **Data Preprocessing Pipeline**
 
-View my notebook with detailed steps here: [Data Cleaning](Notebooks/cleaning.ipynb)
+View my notebook with detailed steps here: [01_cleaning](notebooks/01_cleaning.ipynb)
 
     • Imports raw World Athletics data.
 
@@ -58,7 +58,7 @@ View my notebook with detailed steps here: [Data Cleaning](Notebooks/cleaning.ip
 `Exploratory.ipynb`	
 **Data Exploration (EDA)**
 
-View my notebook with detailed steps here: [Data Exploration](Notebooks/exploratory.ipynb)
+View my notebook with detailed steps here: [02_exploratory](notebooks/02_exploratory.ipynb)
 
     • Visualizes dataset distribution (sample size over years).
 
@@ -69,7 +69,7 @@ View my notebook with detailed steps here: [Data Exploration](Notebooks/explorat
 `PerformanceAcrossAge.ipynb`	
 **Core Analysis & Visualization**
 
-View my notebook with detailed steps here: [Performance Across Age](Notebooks/performance_age.ipynb)
+View my notebook with detailed steps here: [03_performance_age](Notebooks/03_performance_age.ipynb)
 
     • Methodology: Segments athletes into "Elite" (Top 10% per age group) vs "Total Population".
 
@@ -106,17 +106,17 @@ To avoid skewing results with recreational data, "Peak Performance" is defined n
 ## Data Exploration
 
 ### Number of Samples Over Years
-![](Visualizations/number_of_samples_over_years.png)
+![](visuals/number_of_samples_over_years.png)
 
 ### Dataset Age Distribution
-![](Visualizations/age_distribution.png)
+![](visuals/age_distribution.png)
 
 ### Athletes Age Distribution
-![](Visualizations/athletes_age_distribution.png)
+![](visuals/athletes_age_distribution.png)
 
 # Insights
 ## Average Athletes
-![](Visualizations/avg_athletes.png)
+![](visuals/avg_athletes.png)
 
 **Rapid Development:** Performance spikes dramatically between ages 16 and 21.
 
@@ -129,14 +129,14 @@ To avoid skewing results with recreational data, "Peak Performance" is defined n
 **Disappearance of competitors**: With advancing age, especially after the age of 22, the number of competitors begins to decrease significantly, coinciding with performance reaching its peak, which means the withdrawal of competitors with weaker levels due to their inability to compete.
 
 ## Elite Athletes
-![](Visualizations/elite_athletes.png)
+![](visuals/elite_athletes.png)
 
 **Similarities:** Elite athletes are similar to average athletes, with a sharp rise in performance from age 16 to 21, peaking from age 26 to 28, strong competition in the under-22 age group, and the disappearance of weaker competitors.
 
 **Continuity**: Unlike average athletes, elite athletes maintain advanced levels until the age of 32.
 
 ## Comparison
-![](Visualizations/comparison.png)
+![](visuals/comparison.png)
 
 ## Number of players who jumped over 8 m
-![](Visualizations/over8m.png)
+![](visuals/over8m.png)
